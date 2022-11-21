@@ -30,15 +30,15 @@
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jButton3" pref="154" max="32767" attributes="0"/>
-                  <Component id="jButton2" max="32767" attributes="0"/>
+                  <Component id="jButtonRegistrousuario" max="32767" attributes="0"/>
+                  <Component id="jButtonVenta" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jButton4" pref="154" max="32767" attributes="0"/>
-                  <Component id="jButton5" max="32767" attributes="0"/>
+                  <Component id="jButtonRegistroProducto" max="32767" attributes="0"/>
+                  <Component id="jButtonStack" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="83" max="32767" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -48,15 +48,15 @@
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton4" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
+                  <Component id="jButtonRegistroProducto" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
+                  <Component id="jButtonVenta" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jButton5" pref="67" max="32767" attributes="0"/>
-                  <Component id="jButton3" max="32767" attributes="0"/>
+                  <Component id="jButtonStack" pref="67" max="32767" attributes="0"/>
+                  <Component id="jButtonRegistrousuario" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="0" pref="133" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="81" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,30 +68,33 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
     </Container>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="jButtonVenta">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="Ventas"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVentaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="jButtonRegistrousuario">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton3"/>
+        <Property name="text" type="java.lang.String" value="Resgistro de usuario"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="jButtonRegistroProducto">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton4"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton5"/>
+        <Property name="text" type="java.lang.String" value="Registro de Producto"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonRegistroProductoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonStack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stack"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonStackActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
