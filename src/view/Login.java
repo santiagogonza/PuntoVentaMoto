@@ -108,11 +108,11 @@ public class Login extends javax.swing.JFrame implements ActionListener {
         password = txtPas.getText();
         
         //Principal prin = new Principal();
-        UsuarioView usar= new UsuarioView();
-                 
+       // UsuarioView usar= new UsuarioView();
+         Prin pri = new Prin();
         
         if (usr.equals("admin") && password.equals("123")) {
-            usar.setVisible(true);
+            pri.setVisible(true);
             jPanelLogin.setVisible(true);
            this.hide();
         } else {
